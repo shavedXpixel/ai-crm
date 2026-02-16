@@ -7,6 +7,7 @@ import Sidebar from "./Sidebar";
 import Dashboard from "./Dashboard";
 import Pipeline from "./Pipeline";
 import "./App.css";
+import Settings from "./Settings";
 
 function App() {
   const [leads, setLeads] = useState([]);
@@ -66,7 +67,7 @@ function App() {
                 onGenerateEmail={generateEmail} 
               />
             } />
-            <Route path="/settings" element={<div className="page-content"><h1>Settings</h1><p style={{color:'#94a3b8'}}>System Configuration Placeholder</p></div>} />
+            <Route path="/settings" element={<Settings />} />
           </Routes>
         </div>
 
