@@ -1,0 +1,17 @@
+# --- PYTHON BACKEND ---
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.db
+backend/*.sqlite3
+
+# --- REACT FRONTEND ---
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.env
+frontend/.DS_Store
+
+# --- SYSTEM JUNK ---
+.DS_Store
+Thumbs.db
